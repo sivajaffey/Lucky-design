@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Page</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            html {
+                height: 100%;
+            }
+            * { padding: 0; margin: 0; }
+            html, body {
+                min-height: 100% !important;
+                height: 100%;
+            }
+            body {
+                margin:0px;
+                padding:0px;
+                height: 100%;
+                width:100%;
+            }
+            header {
+                top: 0;
+                height:50px;
+                width: 100%;
+                border: 1px solid red;
+            }
+            header-logo {
+                width: 25%;
+                height: 100%;
+                float: left;
+                padding: 8px;
+            }
+            menu-bar{
+                border: 1px solid black;
+                text-align: right;
+                height: 100%;
+                width: 75%;
+                float: left;
+            }
+            menu-bar  ul {
+                border:1px solid yellow;
+                display: inline-flex;
+                padding: 8px;
+            }
+            menu-bar  ul  li {
+                border: 1px solid black;
+                display: block;
+            }
+            chat-screen{
+                border: 1px solid green;
+                display: block;
+                background: mediumvioletred;
+                height: 80%;
+                width: 100%;
+                overflow: auto;
+                position: relative;
+            }
+            .chat-from {
+                border: 1px solid black;
+                width: 85%;
+                border-radius: 5px;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+            .chat-to {
+                border: 1px solid black;
+                width: 85%;
+                border-radius: 5px;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                float:right;
+            }
+        </style>
+</head>
+
+<body>
+    <header>
+        <header-logo>Logo</header-logo>
+        <menu-bar>
+            <ul>
+                <li>refresh</li>
+                <li>Logout</li>
+            </ul>
+        </menu-bar>
+    </header>
+    <chat-screen>
+        <div style="width:100%;">
+            <div class="chat-from">chat 1</div>
+            <div class="chat-to">chat 2</div>
+        </div>
+        
+        <!-- <div class="chat-to">chat 3</div>
+        <div class="chat-from">chat 4</div>
+        <div class="chat-to">chat 6</div>
+        <div class="chat-from">chat 7</div>
+        <div class="chat-to">chat 8</div>
+        <div class="chat-from">chat 9</div>
+        <div class="chat-to">chat 10</div>
+        <div class="chat-from">chat 11</div>
+        <div class="chat-from">chat 12</div>
+        <div class="chat-to">chat 13</div>
+        <div class="chat-to">chat 14</div>
+        <div class="chat-to">chat 15</div>
+        <div class="chat-to">chat 16</div>
+        <div class="chat-from">chat 17</div>
+        <div class="chat-to">chat 18</div>
+        <div class="chat-from">chat 18</div>
+        <div class="chat-from">chat 19</div>
+        <div class="chat-to">chat 20</div>
+        <div class="chat-to">chat 21</div>
+        <div class="chat-to">chat 22</div>
+        <div class="chat-from">chat 23</div>
+        <div class="chat-to">chat 24</div> -->
+    </chat-screen>
+    <footer>
+        CopyRights Lucky 1.1.1
+    </footer>
+</body>
+
+</html>
